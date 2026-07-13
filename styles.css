@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.body-container{
+	display: flex;
+	justify-content:center;
+	align-content:center;
+	height:100vh;
+	border: 2px solid black;
+}
+.main-container{
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+h1{
+	padding: 15px 0 0;
+}
+p{
+	padding: 0 0 20px;
+}
+
+.code{
+	width: 50px;
+	height:40px;
+	text-align:center;
+	margin: auto 10px;
+	display: inline;
+	flex-wrap: no-wrap;
+}
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
