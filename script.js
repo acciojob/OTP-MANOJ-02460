@@ -2,6 +2,10 @@
 
 let inputs = document.querySelectorAll(".code-container .code");
 
+if(inputs.length>0){
+	inputs[0].focus();
+}
+
 inputs.forEach((input,index)=>{
 
 	input.addEventListener("input",(e)=>{
